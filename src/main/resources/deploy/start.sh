@@ -1,0 +1,1 @@
+nohup java -jar ../contact-manager-0.0.1-SNAPSHOT.jar >  /dev/null 2>&1 > ../logs/console.out & echo $! > ../bin/pid.file &
